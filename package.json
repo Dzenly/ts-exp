@@ -1,0 +1,55 @@
+{
+  "name": "ts-exp",
+  "version": "0.0.1",
+  "description": "TS Experiments",
+  "engines": {
+    "node": ">=10.15.1"
+  },
+  "scripts": {
+    "clean": "rm -rf build/* && rm -rf build-types/*",
+    "test": "node build/bin/tia.js --run-self-tests",
+    "postinstall": "node_modules/.bin/tsc || exit 0",
+    "a": "npm run clean && npm run postinstall && npm run test",
+    "b": "npm run postinstall"
+  },
+  "types": "./tia-types/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Dzenly/tia.git"
+  },
+  "keywords": [
+    "log",
+    "comparison",
+    "test",
+    "testing",
+    "framework",
+    "system",
+    "engine",
+    "selenium",
+    "webdriver",
+    "extjs",
+    "web",
+    "gui",
+    "unit",
+    "regression"
+  ],
+  "author": "Dzenly <alexchem@yandex.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dzenly/ts-exp/issues"
+  },
+  "homepage": "https://github.com/Dzenly/ts-exp#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^12.6.1",
+    "@typescript-eslint/eslint-plugin": "^2.0.0",
+    "@typescript-eslint/parser": "^2.0.0",
+    "eslint": "^6.2.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "^1.18.2",
+    "typescript": "^3.5.3"
+  }
+}
