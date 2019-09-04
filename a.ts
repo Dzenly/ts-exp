@@ -1,13 +1,6 @@
 /**
- * Class A descr.
+ * Func msg descr.
  */
-class A {
-  /**
-   * Func msg descr.
-   */
-  static msg(): void {
-    process.stdout.write('A:msg\n');
-  }
+export function msg(): void {
+  process.stdout.write('A:msg\n');
 }
-
-export default A;

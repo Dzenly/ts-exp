@@ -1,4 +1,4 @@
-import A from './a';
+import * as A from './a';
 
 class B {
   /**
