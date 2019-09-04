@@ -41,7 +41,7 @@
   "homepage": "https://github.com/Dzenly/ts-exp#readme",
   "dependencies": {},
   "devDependencies": {
-    "@types/node": "^12.6.1",
+    "@types/node": "^12.7.4",
     "@typescript-eslint/eslint-plugin": "^2.0.0",
     "@typescript-eslint/parser": "^2.0.0",
     "eslint": "^6.2.1",
