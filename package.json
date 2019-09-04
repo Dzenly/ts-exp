@@ -1,6 +1,6 @@
 {
   "name": "ts-exp",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "TS Experiments",
   "engines": {
     "node": ">=10.15.1"
